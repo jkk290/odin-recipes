@@ -1,0 +1,32 @@
+* {
+    font-family: "Helvetica", "Georgia", sans-serif;
+}
+
+.title {
+    background-color: aliceblue;
+    color: darkslategrey;
+
+}
+
+#directory {
+    background-color: aliceblue;
+}
+
+#directory > li {
+    color: black;
+}
+
+p {
+    font-style: italic;
+}
+
+ul,
+ol {
+    background-color: aquamarine;
+}
+
+ul > li,
+ol > li {
+    color: rgb(32, 178, 170);
+
+}
