@@ -5,15 +5,18 @@
 .title {
     background-color: aliceblue;
     color: darkslategrey;
+    text-align: center;
 
 }
 
 #directory {
     background-color: aliceblue;
+    text-align: center;
 }
 
 #directory > li {
     color: black;
+    list-style-type: none;
 }
 
 p {
@@ -23,10 +26,18 @@ p {
 ul,
 ol {
     background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
 }
 
 ul > li,
 ol > li {
     color: rgb(32, 178, 170);
 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
